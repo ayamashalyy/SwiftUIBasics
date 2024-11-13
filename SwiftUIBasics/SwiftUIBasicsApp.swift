@@ -11,7 +11,15 @@ import SwiftUI
 struct SwiftUIBasicsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+           // ContentView()
+           // SwiftUIText()
+           // SwiftUICircle()
+           // SwiftUIEllipse()
+           //SwiftUIRectangle()
+           // SwiftUICapsule()
+           // SwiftUIColors()
+           // SwiftUIGradient()
+            SwiftUIImages()
         }
     }
 }
