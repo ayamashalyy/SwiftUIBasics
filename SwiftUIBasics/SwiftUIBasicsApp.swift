@@ -19,7 +19,12 @@ struct SwiftUIBasicsApp: App {
            // SwiftUICapsule()
            // SwiftUIColors()
            // SwiftUIGradient()
-            SwiftUIImages()
+           // SwiftUIImages()
+           // SwiftUIAsyncImage()
+           //SwiftUIVStack()
+           // SwiftUIHStack()
+           // SwiftUIZStack()
+            SwiftUIBackground()
         }
     }
 }

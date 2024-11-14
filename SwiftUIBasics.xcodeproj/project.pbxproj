@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		030CD94C2CE688B900D60D1D /* SwiftUIAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030CD94B2CE688B900D60D1D /* SwiftUIAsyncImage.swift */; };
+		030CD94E2CE6A13C00D60D1D /* SwiftUIVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030CD94D2CE6A13C00D60D1D /* SwiftUIVStack.swift */; };
+		030CD9502CE6A6A400D60D1D /* SwiftUIHStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030CD94F2CE6A6A400D60D1D /* SwiftUIHStack.swift */; };
+		030CD9522CE6AA9300D60D1D /* SwiftUIZStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030CD9512CE6AA9300D60D1D /* SwiftUIZStack.swift */; };
+		030CD9542CE6AE5500D60D1D /* SwiftUIBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030CD9532CE6AE5500D60D1D /* SwiftUIBackground.swift */; };
 		03ACE4192CE4E02B004C49E1 /* SwiftUIBasicsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ACE4182CE4E02B004C49E1 /* SwiftUIBasicsApp.swift */; };
 		03ACE41B2CE4E02B004C49E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ACE41A2CE4E02B004C49E1 /* ContentView.swift */; };
 		03ACE41D2CE4E054004C49E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03ACE41C2CE4E054004C49E1 /* Assets.xcassets */; };
@@ -22,6 +27,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		030CD94B2CE688B900D60D1D /* SwiftUIAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAsyncImage.swift; sourceTree = "<group>"; };
+		030CD94D2CE6A13C00D60D1D /* SwiftUIVStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIVStack.swift; sourceTree = "<group>"; };
+		030CD94F2CE6A6A400D60D1D /* SwiftUIHStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIHStack.swift; sourceTree = "<group>"; };
+		030CD9512CE6AA9300D60D1D /* SwiftUIZStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIZStack.swift; sourceTree = "<group>"; };
+		030CD9532CE6AE5500D60D1D /* SwiftUIBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBackground.swift; sourceTree = "<group>"; };
 		03ACE4152CE4E02A004C49E1 /* SwiftUIBasics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBasics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03ACE4182CE4E02B004C49E1 /* SwiftUIBasicsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBasicsApp.swift; sourceTree = "<group>"; };
 		03ACE41A2CE4E02B004C49E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +87,11 @@
 				03ACE4302CE51DDA004C49E1 /* SwiftUIColors.swift */,
 				03ACE4322CE5297E004C49E1 /* SwiftUIGradient.swift */,
 				03ACE4342CE537DE004C49E1 /* SwiftUIImages.swift */,
+				030CD94B2CE688B900D60D1D /* SwiftUIAsyncImage.swift */,
+				030CD94D2CE6A13C00D60D1D /* SwiftUIVStack.swift */,
+				030CD94F2CE6A6A400D60D1D /* SwiftUIHStack.swift */,
+				030CD9512CE6AA9300D60D1D /* SwiftUIZStack.swift */,
+				030CD9532CE6AE5500D60D1D /* SwiftUIBackground.swift */,
 				03ACE41C2CE4E054004C49E1 /* Assets.xcassets */,
 				03ACE41E2CE4E054004C49E1 /* Preview Content */,
 			);
@@ -161,12 +176,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				030CD9542CE6AE5500D60D1D /* SwiftUIBackground.swift in Sources */,
+				030CD94C2CE688B900D60D1D /* SwiftUIAsyncImage.swift in Sources */,
+				030CD9522CE6AA9300D60D1D /* SwiftUIZStack.swift in Sources */,
 				03ACE41B2CE4E02B004C49E1 /* ContentView.swift in Sources */,
 				03ACE4272CE4EF5D004C49E1 /* SwiftUIText.swift in Sources */,
 				03ACE42B2CE500BB004C49E1 /* SwiftUIEllipse.swift in Sources */,
 				03ACE4312CE51DDA004C49E1 /* SwiftUIColors.swift in Sources */,
+				030CD94E2CE6A13C00D60D1D /* SwiftUIVStack.swift in Sources */,
 				03ACE42F2CE5186D004C49E1 /* SwiftUICapsule.swift in Sources */,
 				03ACE4352CE537DE004C49E1 /* SwiftUIImages.swift in Sources */,
+				030CD9502CE6A6A400D60D1D /* SwiftUIHStack.swift in Sources */,
 				03ACE42D2CE51260004C49E1 /* SwiftUIRectangle.swift in Sources */,
 				03ACE4192CE4E02B004C49E1 /* SwiftUIBasicsApp.swift in Sources */,
 				03ACE4292CE4FBCA004C49E1 /* SwiftUICircle.swift in Sources */,
